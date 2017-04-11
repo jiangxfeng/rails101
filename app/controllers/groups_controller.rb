@@ -10,7 +10,6 @@ class GroupsController < ApplicationController
   end
 
   def edit
-    find_group_and_check_permission
   end
 
   def new
